@@ -1,8 +1,10 @@
 # Monitoring Unit Application
 
-作成者 / Author: Macnica,Inc
+作成者 / Author: Macnica, Inc.
 
-著作権 / Copyright: Copyright (c) Macnica,Inc. All rights reserved.
+ライセンス / License: MIT License（[`LICENSE`](LICENSE)）
+
+著作権 / Copyright: Copyright (c) 2026 Macnica, Inc.
 
 ## 概要 / Overview
 
@@ -353,10 +355,28 @@ We do not provide individualized support for this software. Please use GitHub Is
 English:
 This software is provided "as is". Macnica, Inc. makes no warranties, express or implied, regarding the quality, performance, accuracy, completeness, usefulness, safety, fitness for a particular purpose, or non-infringement of third-party rights of this software, and does not warrant that it is free of vulnerabilities or defects. Macnica, Inc. is not liable for any damages arising from the use or inability to use this software. Users are responsible for evaluating, selecting, deploying, and operating this software at their own risk.
 
+## ライセンス / License
+
+日本語:
+本ソフトウェアは MIT License の下で提供されます。ライセンス全文は [`LICENSE`](LICENSE) を参照してください。
+
+本リポジトリが同梱または参照するサードパーティコンポーネントは、それぞれ独自のライセンス条項に従います。詳細は [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) を参照してください。
+
+English:
+This software is provided under the MIT License. See [`LICENSE`](LICENSE) for the full license text.
+
+Third-party components bundled or referenced by this repository remain subject to their own license terms. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for details.
+
 ## 作成者 / Author
 
-Macnica,Inc
+Macnica, Inc.
 
 ## 著作権 / Copyright
 
-Copyright (c) Macnica,Inc. All rights reserved.
+Copyright (c) 2026 Macnica, Inc.
+
+日本語:
+本ソフトウェアの利用条件は、上記「ライセンス / License」に定める MIT License に従います。
+
+English:
+Use of this software is governed by the MIT License described in the License section above.
