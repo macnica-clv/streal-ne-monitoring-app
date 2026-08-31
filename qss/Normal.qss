@@ -1,0 +1,505 @@
+/* Main_Window */
+QMainWindow {
+    background-color: "#EAECF5";
+}
+
+QWidget[objectName="toolbar"]{
+    background-color: "#FFFFFF";
+    border-right: 1.5px solid #8098F9;
+}
+QWidget[objectName="toolbar"] QPushButton {
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="toolbar"] QPushButton:hover {
+    background-color: "#DDE1E6";
+}
+QWidget[objectName="toolbar"] QPushButton:pressed {
+    background-color: "#C1C7CD";
+}
+QWidget[objectName="status_bar"]{
+    background-color: "#3E4784";
+}
+
+
+/* Home_Page */
+QWidget[objectName="home_title"]{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="home_title"] QLabel{
+    color: "#333333";
+}
+QWidget[objectName="home_title"] QPushButton{
+    background-color: "#FFFFFF";
+}
+
+QWidget[objectName="message_info"]{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="message_info"] QPushButton{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="message_body"]{
+    color: blue;
+}
+
+/* Chart_Page */
+QWidget[objectName="main_menu"] {
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="main_menu"] QPushButton {
+    min-width: 100px;
+    background-color: "#FFFFFF";
+    color: "#000000";
+    border: 1px solid "#717BBC";
+    border-radius: 3px;
+}
+QWidget[objectName="main_menu"] QPushButton:hover {
+    background-color: "#DDE1E6";
+    color: "#000000";
+}
+QWidget[objectName="main_menu"] QPushButton:pressed {
+    background-color: "#C1C7CD";
+    color: "#000000";
+}
+
+QWidget[objectName="sub_menu"] {
+    background-color: "#F8F9FC";
+    color: "#000000";
+    border-top: 1px solid #717BBC;
+    border-bottom: 1px solid #717BBC;
+}
+QWidget[objectName="sub_menu"] QWidget{
+    background-color: "#F8F9FC";
+    color: "#000000";
+}
+QWidget[objectName="sub_menu"] QPushButton {
+    min-width: 30px;
+    border: none;
+}
+QWidget[objectName="sub_menu"] QPushButton:hover {
+    background-color: "#DDE1E6";
+}
+QWidget[objectName="sub_menu"] QPushButton:pressed {
+    background-color: "#C1C7CD";
+}
+QWidget[objectName="sub_menu"] QLineEdit{
+    background-color: "#FFFFFF";
+    color: "#000000";
+}
+QWidget[objectName="sub_menu"] QComboBox{
+    background-color: "#DDE1E6";
+    color: "#000000";
+}
+
+QWidget[objectName="chart_area"]{
+    background-color: "#FFFFFF";
+    color: "#000000";
+}
+QWidget[objectName="csv_prev_tab"]{
+    background-color: "#FFAAAA";
+    color: "#000000";
+}
+QWidget[objectName="table_area"] QLineEdit{
+    background-color: transparent;
+    color: "#000000";
+    border: none;
+    font-size: 14px;
+}
+QWidget[objectName="table_area"] QLabel{
+    color: "#000000";
+    font-size: 14px;
+}
+
+QTableWidget{
+    color: black;
+}
+QTableWidget::viewport{
+    color: black;
+}
+QTableWidget QAbstractItemView{
+    color: black;
+}
+QTableWidget QAbstractItemView::viewport{
+    color: black;
+}
+QTableWidget::item{
+    color: black;
+}
+QTableWidget QAbstractItemView::item{
+    color: black;
+}
+QTableWidget QHeaderView::section {
+    background-color: "#FFFFFF";
+    color: black;
+    border: 0.5px solid "#D8D8D8";
+}
+QTableWidget{
+    background-color: "#FFFFFF";
+    color: black;
+}
+QPushButton#table_setting_button{
+    background-color: "#EAECF5";
+}
+
+#sensor_settings{
+	background-color: "#F8F9FC";
+	border-left: 1px solid "#9EA5D1";
+}
+QWidget[objectName="sensor_settings"] QPushButton#register_settings_button {
+    background-color: "#FFFFFF";
+    border: 1px solid "#D0D5DD";
+    color: "#000000";
+}
+QWidget[objectName="sensor_settings"] QPushButton#register_settings_button:hover {
+    background-color: "#DDE1E6";
+}
+QWidget[objectName="sensor_settings"] QPushButton#register_settings_button:pressed {
+    background-color: "#C1C7CD";
+}
+QWidget[objectName="sensor_settings"] QPushButton#sensor_settings_close_button {
+    background-color: "#F8F9FC";
+    border: none;
+}
+QWidget[objectName="sensor_settings"] QPushButton#sensor_settings_close_button:hover {
+    background-color: "#DDE1E6";
+}
+QWidget[objectName="sensor_settings"] QPushButton#sensor_settings_close_button:pressed {
+    background-color: "#C1C7CD";
+}
+QWidget[objectName="scrollAreaWidgetContents"] QWidget {
+    background-color: "#F8F9FC";
+}
+
+QTabWidget[objectName="filter_setting_tabs"]{
+    background-color: "#FFFFFF";
+}
+QTabWidget[objectName="filter_setting_tabs"] QWidget{
+    background-color: "#FFFFFF";
+    color: "#000000";
+}
+QTabWidget#filter_setting_tabs QTabBar::tab {
+    background-color: lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius: 2px;
+    min-width: 40px;
+}
+
+QTabWidget#filter_setting_tabs QTabBar::tab:selected {
+    background-color: #FFFFFF;
+}
+
+
+
+#filter_settings{
+	background-color: "#F8F9FC";
+	border-right: 1px solid "#9EA5D1";
+}
+
+QWidget[objectName="filter_settings"] QPushButton#filter_settings_close_button {
+    background-color: "#F8F9FC";
+    border: none;
+}
+QWidget[objectName="filter_settings"] QPushButton#filter_settings_close_button:hover {
+    background-color: "#DDE1E6";
+}
+QWidget[objectName="filter_settings"] QPushButton#filter_settings_close_button:pressed {
+    background-color: "#C1C7CD";
+}
+QWidget[objectName="filter_settings"] QPushButton#csv_browse_button {
+    background-color: "#FFFFFF";
+    color: "#000000";
+}
+QWidget[objectName="filter_settings"] QPushButton#csv_browse_button:hover {
+    background-color: "#DDE1E6";
+    color: "#000000"
+}
+QWidget[objectName="filter_settings"] QPushButton#csv_browse_button:pressed {
+    background-color: "#C1C7CD";
+    color: "#000000"
+}
+
+QLabel#filter_settings_label {
+    color: #000000;
+}
+QLabel#sensor_settings_label {
+    color: #000000;
+}
+QWidget[objectName="filter_settings"] QComboBox {
+    background-color: "#F2F2F2";
+}
+
+
+/* Register Page */
+QWidget[objectName="register_page"]{
+    min-width : 700px;
+}
+QWidget[objectName="main_widget"] QWidget{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="register_setting_area"] QWidget{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="setting_scroll_area"] QWidget{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="button_area"] QWidget{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="help_area"] QWidget{
+    background-color: "#FFFFFF";
+}
+QWidget[objectName="help_area"] QPushButton{
+    background-color: "#FFFFFF";
+    color: "#000000";
+}
+QWidget[objectName="help_area"] QPushButton::hover{
+    background-color: "#F5F6F8";
+    color: "#000000";
+}
+QWidget[objectName="help_area"] QPushButton:pressed{
+    background-color: "#E6E8EC";
+    color: "#000000";
+}
+QWidget[objectName="setting_scroll_area"] QGroupBox{
+    background-color: "#FFFFFF";
+	border-top:none;
+	border-bottom:1px solid #C1C7CD;
+}
+QWidget[objectName="register_setting_area"] QLabel{
+    color: "#000000";
+}
+QWidget[objectName="register_setting_area"] QComboBox{
+    color: "#000000";
+    background-color: "#F2F2F2";
+}
+QWidget[objectName="button_area"] QComboBox{
+    background-color: rgb(221, 225, 230);
+    color: rgb(0, 0, 0);
+}
+QWidget[objectName="button_area"] QComboBox::hover{
+    background-color: rgb(200, 205, 210);
+    color: rgb(0, 0, 0);
+}
+/* QWidget[objectName="register_setting_area"] QComboBox::hover{
+    color: "#0000FF";
+}
+QWidget[objectName="register_setting_area"] QComboBox::on{
+    color: "#0000FF";
+} */
+QWidget[objectName="register_setting_area"] QComboBox QAbstractItemView{
+    color: "#000000";
+}
+QWidget[objectName="button_area"] QComboBox QAbstractItemView{
+    color: "#000000";
+}
+/* QWidget[objectName="register_setting_area"] QComboBox QAbstractItemView::item:selected{
+    color: "#0000FF";
+} */
+QWidget[objectName="register_setting_area"] QSpinBox{
+    color: "#000000";
+    text-transform: uppercase;
+}
+/* QWidget[objectName="register_setting_area"] QSlider::groove:horizontal{
+    border-radius: 1px;
+    height: 3px;
+}
+QWidget[objectName="register_setting_area"] QSlider::add-page:horizontal {
+    background: "#CCCCCC";
+}
+QWidget[objectName="register_setting_area"] QSlider::sub-page:horizontal {
+    background: "#3333FF";
+}
+QWidget[objectName="register_setting_area"] QSlider::handle:horizontal {
+    background: "#EEEEFF";
+    height: 12px;
+    width: 12px;
+    border: 2px solid "#3333FF";
+    border-radius: 4px;
+    margin: -6px 0;
+} */
+
+
+QSlider::groove:horizontal {
+    border: none;
+    height: 6px;
+    background: #ccc;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #ffffff;
+    border:1px solid rgb(216, 216, 216);
+    width: 12px;
+    height: 18px;
+    margin: -4px 0;  /* 中央に配置 */
+    border-radius: 6.5px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #3498db;
+    border-radius: 3px;
+}
+
+
+
+/* Setting Page */
+QWidget[objectName="setting_page"]{
+    background-color: "#FFFFFF";
+}
+QPushButton[objectName="apply_button"]{
+    background-color: rgb(15, 98, 254);
+    color: white;
+    border: 1px solid rgb(15, 98, 254);
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+QPushButton[objectName="apply_button"]:hover{
+    background-color: rgb(35, 118, 255);
+    color: #FFFFFF;
+}
+QPushButton[objectName="apply_button"]:pressed{
+    background-color: rgb(10, 78, 204);
+    color: #FFFFFF;
+}
+QPushButton[objectName="cancel_button"]{
+    background-color: white;
+    color: rgb(77, 83, 88);
+    border: 1px solid rgb(77, 83, 88);
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+QPushButton[objectName="cancel_button"]:hover{
+    background-color: "#DDE1E6";
+}
+QPushButton[objectName="cancel_button"]:pressed{
+    background-color: "#C1C7CD";
+    color: "#000000";
+}
+QWidget[objectName="menubar"] QPushButton{
+    background-color: transparent;
+    color: black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: 2px solid transparent;
+    text-align: left;
+    padding-left: 8px;
+}
+QWidget[objectName="menubar"] QPushButton:hover{
+    color: lightblue;
+}
+
+QWidget[objectName="menubar"] QPushButton:checked{
+    color: #0F62FE;
+    border-left-width: 2px;
+    border-left-color: blue;
+    border-left-style: solid;
+}
+
+QWidget[objectName="menubar"] QPushButton:checked:hover{
+    color: #0F62FE;
+    border-left-color: #0F62FE;
+}
+
+#menubar{
+    background-color: "#FFFFFF";
+    border-right-width: 2px;
+    border-right-color: #8098F9;
+    border-right-style: solid;
+}
+
+/* Color Setting */
+QWidget[objectName="color_setting_tab"] QLabel{
+    color: "#000000";
+}
+QWidget[objectName="color_setting_tab"] QComboBox{
+    background-color: "#DDE1E6";
+    color: "#000000";
+}
+
+/* Shortcut Setting */
+QWidget[objectName="sc_setting_tab"] QLabel{
+    color: "#000000";
+}
+QWidget[objectName="sc_setting_tab"] QLineEdit{
+    background-color: "#FFFFFF";
+    border: 1px solid "#D0D5DD";
+    color: "#000000";
+    border-radius: 2px;
+}
+QWidget[objectName="sc_setting_tab"] QLineEdit:focus{
+    border-bottom: 1px solid "#3F51B5";
+}
+QWidget[objectName="sc_setting_tab"] QPushButton {
+    background-color: "#F7F7F7";
+    border: 1px solid "#D0D5DD";
+    color: "#000000";
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+QWidget[objectName="sc_setting_tab"] QPushButton:hover {
+    background-color: "#DDE1E6";
+}
+QWidget[objectName="sc_setting_tab"] QPushButton:pressed {
+    background-color: "#C1C7CD";
+}
+
+/* Language Setting */
+QWidget[objectName="language_setting"] QLabel{
+    color: "#000000";
+}
+QWidget[objectName="language_setting"] QComboBox{
+    background-color: "#DDE1E6";
+    color: "#000000";
+}
+
+/* Log Setting */
+QWidget[objectName="log_setting_tab"] QLabel{
+    color: "#000000";
+}
+QWidget[objectName="log_setting_tab"] QLineEdit{
+    background-color: "#FFFFFF";
+    border: 1px solid "#D0D5DD";
+    color: "#000000";
+    border-radius: 2px;
+}
+QWidget[objectName="log_setting_tab"] QLineEdit:focus{
+    border-bottom: 1px solid "#3F51B5";
+}
+QWidget[objectName="log_setting_tab"] QSpinBox{
+    background-color: "#FFFFFF";
+    color: "#000000";
+}
+QWidget[objectName="log_setting_tab"] QPushButton{
+    background-color: "#CCCCCC";
+    color: "#000000";
+}
+QWidget[objectName="log_setting_tab"] QPushButton:hover{
+    background-color: "#AAAAAA";
+    color: "#000000";
+}
+QWidget[objectName="log_setting_tab"] QPushButton:pressed{
+    background-color: "#666666";
+    color: "#000000";
+}
+
+QWidget[objectName="net_setting_tab"] QLabel{
+    color: "#000000";
+}
+QWidget[objectName="net_setting_tab"] QLineEdit{
+    background-color: "#FFFFFF";
+    border: 1px solid "#D0D5DD";
+    color: "#000000";
+    border-radius: 2px;
+}
+QWidget[objectName="net_setting_tab"] QLineEdit:focus{
+    border-bottom: 1px solid "#3F51B5";
+}
+
+QWidget[objectName="version_tab"] QLabel{
+    color: "#000000";
+}

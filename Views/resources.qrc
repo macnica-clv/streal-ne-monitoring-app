@@ -1,0 +1,68 @@
+<RCC>
+  <qresource prefix="ToolBar/">
+    <file>Images/ToolBar/gear-fill.png</file>
+    <file>Images/ToolBar/book.png</file>
+    <file>Images/ToolBar/wave-saw-tool.png</file>
+    <file>Images/ToolBar/Chart.png</file>
+    <file>Images/ToolBar/Home.png</file>
+    <file>Images/ToolBar/Manual.png</file>
+    <file>Images/ToolBar/Setting.png</file>
+  </qresource>
+  <qresource prefix="RegisterPages">
+    <file>Images/Pages/RegisterPage/download.png</file>
+    <file>Images/Pages/RegisterPage/help-circle-sharp.png</file>
+    <file>Images/Pages/RegisterPage/refresh-sharp.png</file>
+    <file>Images/Pages/RegisterPage/save-sharp.png</file>
+    <file>Images/Pages/RegisterPage/upload.png</file>
+  </qresource>
+  <qresource prefix="ChartPages/">
+    <file>Images/Pages/ChartPage/dark_sample.jpeg</file>
+    <file>Images/Pages/ChartPage/normal_sample.jpeg</file>
+    <file>Images/Pages/ChartPage/white_sample.jpeg</file>
+    <file>Images/Pages/ChartPage/refresh-ccw.png</file>
+    <file>Images/Pages/ChartPage/table-options.png</file>
+    <file>Images/Pages/ChartPage/close-sharp.png</file>
+    <file>Images/Pages/ChartPage/add-folder.png</file>
+    <file>Images/Pages/ChartPage/camera.png</file>
+    <file>Images/Pages/ChartPage/auto-balance.png</file>
+    <file>Images/Pages/ChartPage/filter.png</file>
+    <file>Images/Pages/ChartPage/options-outline.png</file>
+    <file>Images/Pages/ChartPage/pause.png</file>
+    <file>Images/Pages/ChartPage/play-outline.png</file>
+    <file>Images/Pages/ChartPage/ruler-measure.png</file>
+    <file>Images/Pages/ChartPage/save-floppy-disk.png</file>
+    <file>Images/Pages/ChartPage/zoom-in.png</file>
+    <file>Images/Pages/ChartPage/zoom-out.png</file>
+    <file>Images/Pages/ChartPage/Icon_Apply.png</file>
+    <file>Images/Pages/ChartPage/Icon_Sidemenu_Close.png</file>
+  </qresource>
+  <qresource prefix="qml/">
+    <file>qml/SensorSetting.qml</file>
+    <file>qml/SensorStatus.qml</file>
+    <file>qml/SD.qml</file>
+    <file>qml/FFT.qml</file>
+    <file>qml/ConnectionMessage.qml</file>
+    <file>qml/MovingAverage.qml</file>
+    <file>qml/ConnectionSetting.qml</file>
+    <file>qml/ConnectionStatus.qml</file>
+    <file>qml/Icon_info_black.png</file>
+    <file>qml/Icon_info_white.png</file>
+    <file>qml/Icon_ConnectionSetting.png</file>
+    <file>qml/Icon_ConnectionSetting_white.png</file>
+    <file>qml/lamp_gray.png</file>
+    <file>qml/lamp_green.png</file>
+    <file>qml/lamp_red.png</file>
+    <file>qml/auto_save.qml</file>
+  </qresource>
+  <qresource prefix="HomePages/">
+    <file>Images/Pages/HomePage/information-circle-sharp.png</file>
+    <file>Images/Pages/HomePage/home.png</file>
+    <file>Images/Pages/HomePage/Icon_Home.png</file>
+    <file>Images/Pages/HomePage/Icon_Info.png</file>
+    <file>Images/Pages/HomePage/triangle-danger-f.png</file>
+    <file>Images/Pages/HomePage/check-circled-outline.png</file>
+  </qresource>
+  <qresource prefix="/fonts">
+    <file>fonts/Roboto-VariableFont_wdth,wght.ttf</file>
+  </qresource>
+</RCC>

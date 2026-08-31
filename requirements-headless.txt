@@ -1,0 +1,4 @@
+# Runtime dependencies for headless mode (no GUI stack).
+#   pip install -r requirements-headless.txt
+
+pyserial>=3.5
