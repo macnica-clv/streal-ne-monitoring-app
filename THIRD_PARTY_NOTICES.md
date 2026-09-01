@@ -12,6 +12,21 @@ and other third-party materials actually distributed.
 
 This file is informational only and does not modify any third-party license.
 
+## License Texts
+
+Full license texts for components whose licenses require them to be distributed
+alongside the software are provided in the `licenses/` directory:
+
+| File | Applies to |
+| --- | --- |
+| `licenses/LGPL-3.0.txt` | PySide6 / Qt (LGPLv3) |
+| `licenses/GPL-3.0.txt` | Incorporated by reference into LGPLv3 |
+| `licenses/OFL-1.1.txt` | Roboto font (SIL Open Font License 1.1) |
+| `licenses/Apache-2.0.txt` | PyInstaller (portions under Apache-2.0) |
+
+MIT and BSD license texts are reproduced in the appendices at the end of this
+file.
+
 ## Summary
 
 | Component | Use in this repository | License | Upstream / Source |
@@ -24,7 +39,7 @@ This file is informational only and does not modify any third-party license.
 | `pyserial` | Serial port enumeration and communication | BSD 3-Clause | https://github.com/pyserial/pyserial/blob/master/LICENSE.txt |
 | `pyinstaller` | Build / packaging tool | GPL-2.0-or-later with bootloader exception; some files under Apache-2.0 | https://pyinstaller.org/en/stable/license.html |
 | `bottleneck` | Hidden import declared in `Hiz-mil.spec` | Simplified BSD / BSD-2-Clause | https://github.com/pydata/bottleneck/blob/master/LICENSE |
-| `Roboto` font | Bundled in `Views/fonts/` for UI text rendering | Apache License 2.0 | https://github.com/googlefonts/roboto-2/blob/main/LICENSE |
+| `Roboto` font | Bundled in `Views/fonts/` and embedded in `Views/resources_rc.py` for UI text rendering | SIL Open Font License 1.1 | https://github.com/googlefonts/roboto-classic |
 | `Feather Icons` | Some UI icons in `Views/Images/` (e.g. `refresh-ccw.png`, `camera.png`, `download.png`, `upload.png`, `pause.png`), obtained via Figma's built-in icon assets | MIT | https://github.com/feathericons/feather/blob/main/LICENSE |
 | `Ionicons` | Some UI icons in `Views/Images/` (e.g. `close-sharp.png`, `help-circle-sharp.png`, `information-circle-sharp.png`, `options-outline.png`), obtained via Figma's built-in icon assets | MIT | https://github.com/ionic-team/ionicons/blob/main/LICENSE |
 
@@ -69,12 +84,10 @@ This file is informational only and does not modify any third-party license.
   one-directory (`COLLECT`) bundle rather than merging everything into a
   single file, which keeps the Library replaceable as contemplated by LGPLv3
   section 4(d)(1).
-- See "Appendix D - GNU Lesser General Public License v3.0 (LGPLv3)" below
-  for the full text. LGPLv3 incorporates GNU GPLv3 by reference; the full
-  GPLv3 text is available at https://www.gnu.org/licenses/gpl-3.0.txt and is
-  not reproduced in this file for length reasons. A binary distribution of
-  this software should bundle both license texts alongside the PySide6/Qt
-  libraries.
+- The full text of LGPLv3 is provided in `licenses/LGPL-3.0.txt`. LGPLv3
+  incorporates GNU GPLv3 by reference; the full GPLv3 text is provided in
+  `licenses/GPL-3.0.txt`. Both files are included in source and binary
+  distributions of this software, alongside the PySide6/Qt libraries.
 
 Official references:
 
@@ -129,6 +142,41 @@ MIT License. See "Appendix A - MIT License Text" below.
 Official source:
 
 https://github.com/ionic-team/ionicons/blob/main/LICENSE
+
+### Roboto
+
+Copyright notice:
+
+Copyright 2011 The Roboto Project Authors
+(https://github.com/googlefonts/roboto-classic)
+
+Roboto is a trademark of Google.
+
+License:
+
+SIL Open Font License, Version 1.1. The full text is provided in
+`licenses/OFL-1.1.txt`.
+
+Notes:
+
+- The font file `Views/fonts/Roboto-VariableFont_wdth,wght.ttf` is present in
+  this repository and is also embedded into `Views/resources_rc.py` through
+  `Views/resources.qrc`. The application loads it at run time with
+  `QFontDatabase.addApplicationFont(":/fonts/fonts/Roboto-VariableFont_wdth,wght.ttf")`
+  in `Controllers/MainController.py`.
+- The license recorded in the font file's own `name` table (name IDs 13 and 14)
+  is the SIL Open Font License 1.1. Older Roboto releases were distributed
+  under the Apache License 2.0; the file bundled here is an OFL-licensed
+  release, so OFL 1.1 is the applicable license.
+- OFL 1.1 section 2 requires that each copy of the Font Software is accompanied
+  by the copyright notice above and by the license text. Source and binary
+  distributions of this software satisfy this by shipping `licenses/OFL-1.1.txt`
+  together with this notices file.
+- No Reserved Font Name is declared for this font.
+
+Official source:
+
+https://github.com/googlefonts/roboto-classic
 
 ### pyqtgraph
 
